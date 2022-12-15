@@ -456,3 +456,28 @@ footer {
 footer p {
   text-align: center;
 }
+
+@media (max-width: 420px) {
+  .menu, .menuSocial {
+    visibility: hidden;
+  }
+  .about .imgContainer {
+    position: absolute;
+    left: -999px;
+  }
+  .blog .flexContainer {
+    flex-direction: column;
+  }
+  .blog:nth-child(1) {
+    flex-direction: column-reverse;
+  }
+  .links ul {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 140px;
+  }
+  .contact .flexContainer {
+    flex-direction: column;
+  }
+}
