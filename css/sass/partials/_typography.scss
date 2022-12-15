@@ -1,0 +1,46 @@
+h1, h2, h3, h4, h5, p, a, li {
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "offside";
+    font-size: 42px;
+    color: #116500;
+    text-align: center;
+}
+
+.blog h3 {
+    color: #FFFFFF;
+}
+
+// about
+.about p{
+    color: #2c2d2c;
+}
+
+.about a {
+    font-family: "Offside";
+}
+
+// blog
+.blog a {
+        font-family: "Offside";
+        color: #116500;
+    }
+
+
+//links
+.links p {
+    color:#116500 ;
+    font-family: "Offside";
+}
+
+//contact
+.contact h4 {
+    font-family: "Offside";
+}
+.email, .subButton {
+    font-family: "Offside";
+}
